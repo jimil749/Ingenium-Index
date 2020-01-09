@@ -4,9 +4,12 @@
     color: #ff5432
 }
 
-#back-to-top,
+#back-to-top {
+    background-color: #ff5432;
+}
+
 .bg-primary {
-    background-color: black;
+    background-color: #000;
 }
 
 .btn-primary,
