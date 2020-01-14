@@ -1,0 +1,39 @@
+.counter,
+.highlight,
+.blog-post-social ul li a:hover i {
+    color: #ff5432
+}
+
+#back-to-top {
+    background-color: #ff5432;
+}
+
+.bg-primary {
+    background-color: #000;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:target,
+.btn-primary:active:focus {
+    background-color: #ff5432
+}
+
+.btn-primary:hover,
+.btn-primary:active:focus {
+    background-color: #ff5432
+}
+
+.btn-primary-sec,
+.btn-primary-sec:hover,
+.btn-primary-sec:focus,
+.btn-primary-sec:target,
+.btn-primary-sec:active:focus {
+    background-color: #ff5432
+}
+
+.btn-black:hover,
+.btn-black:focus {
+    background-color: #ff5432
+}
