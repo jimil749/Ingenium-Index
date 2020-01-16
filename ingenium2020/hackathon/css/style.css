@@ -430,7 +430,7 @@ p {
 .container_card_1 .card_1 .face .face1 {
     padding: 30px;
     position: relative;
-    background: rgb(31, 27, 27);
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -466,7 +466,7 @@ p {
 
 .container_card_1 .card_1 .face .face2 {
     position: relative;
-    background: rgb(31, 27, 27);
+    background: rgb(253, 251, 251);
     display: flex;
     padding: 20px;
     justify-content: center;
