@@ -139,25 +139,28 @@ p {
     font-family: 'gills', sans-serif;
 }
 
-#particles-js{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background: #262626;
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #262626;
 }
 
 #section5 {
     padding-top: 50px;
     /* height: 2300px; */
     /* color: #fff; */
+    background: url('../images/video/polygon.jgp');
+    background-repeat: repeat;
+    background-size: cover;
     background-color: #262626;
     font-family: 'gills', sans-serif;
 }
 
 #section6 {
-    /* background: url('../images/video/v1.gif');
-    background-repeat: no-repeat;
-    background-size: cover; */
+    background: url('../images/video/polygon.jgp');
+    background-repeat: repeat;
+    background-size: cover;
     padding-top: 50px;
     /* height: 500px; */
     /* color: #fff; */
@@ -376,7 +379,7 @@ p {
 
 .content12 {
     padding: 20px 30px;
-    background-color: #3b444b;
+    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     border-radius: 6px;
 }
