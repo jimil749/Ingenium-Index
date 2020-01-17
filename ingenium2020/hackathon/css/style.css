@@ -139,14 +139,18 @@ p {
     font-family: 'gills', sans-serif;
 }
 
+#particles-js{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #262626;
+}
+
 #section5 {
-    background: url('../images/video/tenor.gif');
-    background-repeat: repeat;
-    background-size: contain;
     padding-top: 50px;
     /* height: 2300px; */
     /* color: #fff; */
-    background-color: #a9a9a9;
+    background-color: #262626;
     font-family: 'gills', sans-serif;
 }
 
