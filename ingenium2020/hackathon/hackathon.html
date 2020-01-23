@@ -257,9 +257,10 @@
             </div>
         </div>
         <!-- </div> -->
-        <canvas id="c" class="class_canvas"></canvas>
+        <!-- <canvas id="c" class="class_canvas"></canvas> -->
         <script>
-            var w = c.width = window.innerWidth,
+            var c = document.createElement('canvas'),
+                w = c.width = window.innerWidth,
                 h = c.height = window.innerHeight,
                 ctx = c.getContext('2d'),
 
@@ -294,6 +295,9 @@
                     vy: 0,
                     width: initialWidth
                 };
+            $('body').css({
+                'background': "url(" + Canvas.toDataURL() + ")"
+            });
 
             function init() {
 
@@ -427,6 +431,9 @@
 
                 init();
             })
+            $('div').css({
+                'background': "url(" + c.toDataURL() + ")"
+            });
         </script>
         <!-- </canvas> -->
         <!-- </canvas> -->
