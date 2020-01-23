@@ -1,3 +1,13 @@
+/* rainbow css content */
+
+.class_canvas {
+    position: relative;
+    /* top: 0;
+    left: 0; */
+    background-color: black;
+    /* z-index: -1; */
+}
+
 * {
     box-sizing: border-box;
 }
@@ -204,13 +214,17 @@ p {
     background-color: #0e0e0e;
 }
 
-.class_canvas {
+/* .class_canvas {
     position: relative;
     /* top: 0;
-    left: 0; */
+    left: 0;
     background-color: black;
-    /* z-index: -1; */
-}
+    /* z-index: -1;
+    background-color: black;
+    /* background-image: url('../images/video/v2.gif'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 #section4 {
     padding-top: 50px;
