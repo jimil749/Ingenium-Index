@@ -4,6 +4,8 @@
 
 body {
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -26,6 +28,20 @@ h6,
 p {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
+}
+
+#c {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: -1;
+}
+.main-text{
+  position: absolute;
+  z-index: 0;
+  left: 350px;
+  top: 10px;
 }
 
 .accordion {
@@ -100,15 +116,73 @@ p {
     border-top: 2px solid #ff5432;
 }
 
+
+/* body {
+	height: 2000px;
+	background: black;
+}
+
+.scene {
+	position: absolute;
+	width: 100%;
+	transform: translateY(var(--translateY));
+	will-change: transform;
+}
+ */
+
+ .large-header {
+  position: relative;
+  width: 100%;
+  background: #111;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+
+.demo .large-header{
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+}
+
+.main-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #F9F1E9;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.demo .main-title {
+  text-transform: uppercase;
+  font-size: 4.2em;
+  letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+  .demo .main-title {
+     font-size: 3em;
+  }
+}
+
+
 #section1 {
     padding-top: 50px;
-    height: 700px;
+    height: 100vh;
     color: #fff;
-    background-color: #1E88E5;
-    background-image: url('../images/video/v4.gif');
+    /* background-color: #1E88E5; */
+    /* background-image: url('../images/video/v4.gif');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     font-family: 'gills', sans-serif;
+    /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg"); */
 }
 
 #section2 {
@@ -127,9 +201,15 @@ p {
     /* height: 700px; */
     /* color: #fff; */
     font-family: 'gills', sans-serif;
-    background-image: url('../images/video/v2.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #0e0e0e;
+}
+
+.class_canvas {
+    position: relative;
+    /* top: 0;
+    left: 0; */
+    background-color: black;
+    /* z-index: -1; */
 }
 
 #section4 {
