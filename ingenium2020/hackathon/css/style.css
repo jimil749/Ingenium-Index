@@ -1,3 +1,13 @@
+/* rainbow css content */
+
+.class_canvas {
+    position: relative;
+    /* top: 0;
+    left: 0; */
+    background-color: black;
+    z-index: 1;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -127,7 +137,8 @@ p {
     /* height: 700px; */
     /* color: #fff; */
     font-family: 'gills', sans-serif;
-    background-image: url('../images/video/v2.gif');
+    background-color: black;
+    /* background-image: url('../images/video/v2.gif'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
