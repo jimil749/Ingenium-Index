@@ -1,0 +1,523 @@
+.woocommerce-info,
+.woocommerce-noreviews,
+p.no-comments,
+.panel {
+     background-color: transparent; 
+}
+
+p.stars a:before,
+html p.stars.selected a.active ~ a:before,
+html p.stars a:hover ~ a:before  {
+        color: #ffffff;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    background: #FFF;
+    border-bottom-color: #fff;
+    border: none;
+    color: #061324;
+    z-index: 2;
+}
+
+.woocommerce form .form-row {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 6px;
+    padding: 3px;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after, 
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before {
+    opacity: 0;
+}
+
+.woocommerce form.checkout_coupon, 
+.woocommerce form.login, 
+.woocommerce form.register {
+    border: 1px solid #0a203a;
+}
+
+.woocommerce .woocommerce-breadcrumb {
+    text-align: center;
+}
+
+.woocommerce table.shop_table {
+    background: #0a203a;
+}
+
+#add_payment_method #payment, 
+.woocommerce-cart #payment, 
+.woocommerce-checkout #payment {
+    background: #0a203a;
+    border-radius: 5px;
+}
+
+#add_payment_method #payment div.payment_box::before, 
+.woocommerce-cart #payment div.payment_box::before, 
+.woocommerce-checkout #payment div.payment_box::before {
+    border: 1em solid #071225;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    content: '';
+    display: block;
+    left: 0;
+    margin: -1em 0 0 2em;
+    position: absolute;
+    top: -.75em;
+}
+
+#add_payment_method #payment div.payment_box, 
+.woocommerce-cart #payment div.payment_box, 
+.woocommerce-checkout #payment div.payment_box {
+    background-color: #071225;
+    color: #515151;
+}
+
+.surge-light #add_payment_method #payment div.payment_box, 
+.surge-light.woocommerce-cart #payment div.payment_box, 
+.surge-light.woocommerce-checkout #payment div.payment_box {
+    background-color: #4e4d4d;
+}
+
+.surge-light #add_payment_method #payment div.payment_box::before, 
+.surge-light.woocommerce-cart #payment div.payment_box::before, 
+.surge-light.woocommerce-checkout #payment div.payment_box::before {
+    border: 1em solid #4e4d4d;
+    border-right-color: #0000;
+    border-left-color: #0000;
+    border-top-color: #0000;
+}
+
+.woocommerce .products .star-rating {
+    margin-left: 10px !important;
+}
+
+.woocommerce .item img, 
+.woocommerce-page .item img {
+    width: 100%;
+}
+
+.surge-light.woocommerce-checkout #payment div.payment_box p{
+    color: #ffffff;
+}
+
+.woocommerce div.product form.cart .button {
+    background-color: rgb(203, 55, 66);
+    border-radius: 0;
+    font-weight: 800;
+    padding: 1em 2em;
+}
+
+.woocommerce #review_form #respond .form-submit input {
+    border-radius: 0;
+    font-weight: 800;
+    padding: 1em 2em;
+}
+
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button {
+    border-radius: 0;
+    font-weight: 800;
+    padding: 1em 2em;
+    height: 40px;    
+}
+
+.woocommerce-message {
+    border-top: 1px solid rgb(203, 55, 66);
+}
+
+.woocommerce-message::before {
+    content: '\e015';
+    color: rgb(203, 55, 66);
+}
+
+.woocommerce .woocommerce-message  a.button {
+    margin-top: 0;
+}
+
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price {
+    color: rgb(203, 55, 66);
+}
+
+.woocommerce ul.products li.product .price {
+    color: rgb(203, 55, 66);
+}
+
+ .woocommerce button.button {
+    line-height: initial;
+}
+
+.surge-light.woocommerce ul.products li.product .price {
+    color: rgb(233, 67, 98);
+}
+
+.surge-light.woocommerce div.product form.cart .button {
+    background-color: rgb(233, 67, 98);
+}
+
+.surge-light.woocommerce #respond input#submit  {
+    background: rgb(218, 216, 218);
+}
+
+.woocommerce .woocommerce-breadcrumb a {
+    color: rgb(255, 255, 255);
+}
+
+.woocommerce .woocommerce-breadcrumb {
+    color: rgb(255, 255, 255);
+}
+
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt {
+    background-color: rgb(203, 55, 66);
+}
+
+.surge-light .woocommerce #respond input#submit.alt, 
+.surge-light .woocommerce a.button.alt, 
+.surge-light .woocommerce button.button.alt, 
+.surge-light .woocommerce input.button.alt {
+    background-color: rgb(233, 67, 98);
+    color: rgb(255, 255, 255);
+}
+
+.surge-light .woocommerce a:link,
+.surge-light .woocommerce a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.surge-light p.stars a:before, 
+html .surge-light p.stars.selected a.active ~ a:before, 
+html .surge-light p.stars a:hover ~ a:before {
+    color: rgb(82, 82, 82);
+}
+
+.surge-light.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.surge-light.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    background: rgb(242, 242, 242);
+}
+.surge-light.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    color: rgb(102, 102, 102);
+}
+
+.surge-light .woocommerce-message {
+    border-top: 1px solid rgb(233, 67, 97);
+}
+
+.surge-light  .woocommerce-message::before {
+    color: rgb(233, 67, 97);
+}
+
+.surge-light .woocommerce a.showcoupon:link, 
+.surge-light .woocommerce a.showcoupon:visited {
+    color: rgb(183, 183, 183);
+}
+
+.surge-light .woocommerce-info::before {
+    color: rgb(233, 67, 98);
+}
+
+.surge-light .woocommerce form table.shop_table tbody tr.cart_item td {
+    border-top: 1px solid rgb(218, 218, 218);
+}
+
+.surge-light .woocommerce table.shop_table,
+.color-scheme-1 .woocommerce table.shop_table {
+    background: rgb(230, 230, 230);
+        border: none;
+}
+
+.surge-light  #add_payment_method .cart-collaterals .cart_totals tr td,
+.surge-light #add_payment_method .cart-collaterals .cart_totals tr th,
+.surge-light.woocommerce-cart .cart-collaterals .cart_totals tr td,
+.surge-light.woocommerce-cart .cart-collaterals .cart_totals tr th,
+.surge-light .woocommerce-checkout .cart-collaterals .cart_totals tr td,
+.surge-light .woocommerce-checkout .cart-collaterals .cart_totals tr th {
+    border-top: 1px solid rgba(37, 37, 37, 0.18);
+}
+
+.surge-light .woocommerce form table.shop_table tbody tr td.actions {
+    border-top: 1px solid rgb(187, 187, 187);
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.surge-light .woocommerce table.shop_table tbody th,
+.surge-light .woocommerce table.shop_table td, 
+.surge-light .woocommerce table.shop_table tfoot td, 
+.surge-light .woocommerce table.shop_table tfoot th {
+    border-top: 1px solid rgb(187, 187, 187);
+}
+
+.surge-light .woocommerce-info {
+    border-top: 1px solid rgb(233, 67, 98);
+}
+
+.color-scheme-1.woocommerce ul.products li.product .price {
+    color: rgb(233, 67, 98);
+}
+
+.color-scheme-1.woocommerce div.product p.price,
+.color-scheme-1.woocommerce div.product span.price {
+    color: rgb(233, 67, 98);
+}
+
+.color-scheme-1.woocommerce div.product form.cart .button {
+    background-color: rgb(233, 67, 98);
+    height: 42px;
+}
+ .woocommerce div.product form.cart .button {
+    height: 42px;
+}
+.woocommerce .quantity .qty {
+    height: 42px;
+}
+
+.color-scheme-1 .woocommerce #respond input#submit.alt,
+.color-scheme-1 .woocommerce a.button.alt, 
+.color-scheme-1 .woocommerce button.button.alt, 
+.color-scheme-1 .woocommerce input.button.alt {
+    background-color: rgb(233, 67, 98);
+}
+
+.color-scheme-1  .woocommerce a:link,.color-scheme-1  .woocommerce a:visited {
+    color: rgb(118, 112, 112);
+}
+
+.color-scheme-1 .cart-button a:link, .color-scheme-1 .cart-button a:active, 
+.color-scheme-1 .cart-button a:visited  {
+    color: rgb(255, 255, 255);
+}
+
+.color-scheme-1.woocommerce.woocommerce .cart-button a:link,
+.color-scheme-1.woocommerce.woocommerce .cart-button a:visited  {
+    color: rgb(255, 255, 255);
+}
+
+.surge-light.woocommerce.woocommerce .cart-button a:link,
+.surge-light.woocommerce.woocommerce .cart-button a:visited  {
+    color: rgb(255, 255, 255);
+}
+
+.color-scheme-1 #add_payment_method #payment div.payment_box,
+.color-scheme-1.woocommerce-cart #payment div.payment_box, 
+.color-scheme-1.woocommerce-checkout #payment div.payment_box {
+    background-color: #4e4e4e;
+}
+
+.color-scheme-1 #add_payment_method #payment div.payment_box::before, 
+.color-scheme-1.woocommerce-cart #payment div.payment_box::before, 
+.color-scheme-1.woocommerce-checkout #payment div.payment_box::before {
+    border: 1em solid #4e4e4e;
+    border-right-color: #0000;
+    border-left-color: #0000;
+    border-top-color: #0000;
+}
+
+.color-scheme-1.woocommerce-checkout #payment div.payment_box p {
+    color: #fff;
+}
+    
+.color-scheme-1  p.stars a:before, 
+html .color-scheme-1  p.stars.selected a.active ~ a:before,
+html .color-scheme-1  p.stars a:hover ~ a:before {
+    color: rgb(138, 138, 138);
+}
+
+.color-scheme-1 .mini-cart .cart-button .mini-cart-icon:after {
+    background-color: rgb(233, 67, 98);
+}
+
+.color-scheme-1 .woocommerce a.checkout-button:link, 
+.color-scheme-1 .woocommerce a.checkout-button:visited {
+    color: rgb(255, 255, 255);
+}
+
+.color-scheme-1 .woocommerce form table.shop_table tbody tr.cart_item td {
+    text-align: center;
+    padding: 29px 20px;
+    border-top: 1px solid rgb(199, 199, 199);
+}
+
+.woocommerce a.remove {
+    box-shadow: none;
+}
+
+ .color-scheme-1.woocommerce a.button, 
+.color-scheme-1.woocommerce button.button, 
+.color-scheme-1.woocommerce input.button {
+    background: rgb(150, 150, 150);
+}
+
+.color-scheme-1  .woocommerce table.shop_table tbody th,
+.color-scheme-1 .woocommerce table.shop_table td,
+.color-scheme-1 .woocommerce table.shop_table tfoot td,
+.color-scheme-1 .woocommerce table.shop_table tfoot th {
+    border-top: 1px solid rgba(58, 58, 58, 0.61);
+}
+
+ .color-scheme-1 .select2-container--default .select2-selection--single {
+    background-color: rgb(237, 238, 240);     
+}
+
+.color-scheme-1  .woocommerce form table.shop_table tbody tr td.actions {
+    padding: 29px 20px;
+    border-top: 1px solid rgb(123, 123, 123);
+    border-bottom: 1px solid rgb(123, 123, 123);
+}
+
+.color-scheme-1 .woocommerce a.showcoupon:link, 
+.color-scheme-1 .woocommerce a.showcoupon:visited {
+    color: rgb(177, 177, 177);
+}
+
+.color-scheme-1.woocommerce.woocommerce .title-description a:link {
+    color: #767070;
+}
+
+.color-scheme-1.woocommerce.woocommerce .woocommerce-message a:link, 
+.color-scheme-1.woocommerce .woocommerce-message a:active, 
+.color-scheme-1.woocommerce .woocommerce-message a:visited {
+    color: #fff;
+}
+
+.woocommerce thead th {
+    border-bottom: none;
+    padding-bottom: 0.5em;
+}
+
+.woocommerce a.button.alt:hover {
+        background-color: rgb(203, 55, 66);
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+}
+
+.woocommerce a:link,.woocommerce a:visited {
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+    height: auto;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    z-index: 0;
+}
+
+.surge-light.woocommerce a:link, 
+.surge-light.woocommerce a:visited {
+    color: #000;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    border: 1px solid rgba(228, 225, 227, 0.109);
+}
+
+.woocommerce ul.products li.product a {
+    color: rgb(242, 242, 242);
+}
+
+.woocommerce a.button   {
+    color: rgb(102, 102, 102);
+    box-shadow: none;
+}
+
+.woocommerce-info {
+    border-top: 1px solid rgb(203, 55, 66);
+}
+
+.woocommerce-info::before {
+    color: rgb(203, 55, 66);
+}
+
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover {
+    background-color: rgb(203, 55, 66);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    color: rgb(255, 255, 255);
+}
+
+.color-scheme-1.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    color: #515151;
+}
+
+.woocommerce.single-post .comment-form,
+.woocommerce.page .comment-form,
+.woocommerce.single .comment-form {
+    font-size: inherit;
+    margin: 0  ;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {
+    color: rgb(107, 106, 107);
+}
+
+.hidden-xs{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    float: right;
+    height: 100%;
+    list-style: none;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.mini-cart {
+    align-self: center;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+
+.mini-cart .cart-button {
+    cursor: pointer;
+}
+
+.mini-cart .cart-button .mini-cart-icon {
+    color: #999999;
+}
+
+.mini-cart .cart-button .mini-cart-icon {
+    position: relative;
+}
+ 
+.mini-cart .cart-button .mini-cart-icon:after {
+    background-color: #cb3742;
+    color: #fff;
+}
+
+.mini-cart .cart-button .mini-cart-icon:after {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    content: attr(data-count);
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    min-width: 20px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -16px;  
+}
+
+.hidden-xs {
+    padding: 15px 0;
+}

@@ -1,0 +1,43 @@
+
+
+.tg-sectionspace{padding: 40px 0;}
+
+.tg-aboutus{
+	width:100%;
+	float:left;
+}
+.tg-aboutus .tg-textshortcode{}
+.tg-aboutus 
+.tg-aboutus .tg-sectionheading:before{
+	left:0;
+	margin:0;
+}
+
+
+.tg-events{
+	padding: 15px;
+}
+.tg-events img{
+	filter: grayscale(100%);
+}
+.tg-events img:hover{
+	filter: grayscale(0%);
+}
+
+.event-image {
+  opacity: 1;
+  display: block;
+  width: 50%;
+  height: auto;
+  transition: 1s ease;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 10px 5px #999999;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+            .au_ban{
+                display: none;
+            }
+}
