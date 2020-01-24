@@ -42,10 +42,9 @@ p {
 
 #c {
     position: absolute;
-    top: 0;
-    left: 0;
     background-color: black;
     z-index: -1;
+
 }
 
 .main-text {
@@ -185,7 +184,7 @@ p {
 
 #section1 {
     padding-top: 50px;
-    height: 100vh;
+    height: 130vh;
     color: #fff;
     /* background-color: #1E88E5; */
     /* background-image: url('../images/video/v4.gif');
@@ -211,7 +210,6 @@ p {
     /* height: 700px; */
     /* color: #fff; */
     font-family: 'gills', sans-serif;
-    background-color: #0e0e0e;
 }
 
 
@@ -222,7 +220,7 @@ p {
     background-color: black;
     /* z-index: -1;
     background-color: black;
-    /* background-image: url('../images/video/v2.gif'); 
+    /* background-image: url('../images/video/v2.gif');
     background-repeat: no-repeat;
     background-size: cover;
 } */
@@ -318,7 +316,7 @@ p {
 }
 
 .navbar-fixed-top {
-    height: 59px;
+    height: 70px;
 }
 
 #sec1text {
@@ -717,380 +715,6 @@ p {
     bottom: 0;
     width: 100%;
 }
-
-
-/*
-
-<div class="cude_background">
-    <!-- <input type="checkbox" id="shadows" checked /><label for="shadows">Soft shadows</label> -->
-    <div class="cubes">
-        <!--   row, column, z -->
-        <div class="cube" data-cube="111">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-z" data-cube="112"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="121">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="131">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-z" data-cube="132"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="211">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="111"></div>
-                    <div class="shadow-y" data-cube="111"></div>
-                    <div class="shadow-z" data-cube="212"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="221">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="121"></div>
-                    <div class="shadow-y" data-cube="121"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="231">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="131"></div>
-                    <div class="shadow-y" data-cube="131"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="311">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="211"></div>
-                    <div class="shadow-y" data-cube="211"></div>
-                    <div class="shadow-z" data-cube="312"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="321">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="221"></div>
-                    <div class="shadow-y" data-cube="221"></div>
-                    <div class="shadow-z" data-cube="322"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="331">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="231"></div>
-                    <div class="shadow-y" data-cube="231"></div>
-                    <div class="shadow-z" data-cube="332"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-
-        <!-- top layer -->
-        <div class="cube" data-cube="112">
-            <div class="cube-wrap">
-                <div class="cube-top">
-
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="122">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="132">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="212">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="112"></div>
-                    <div class="shadow-y" data-cube="112"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="222">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="122"></div>
-                    <div class="shadow-y" data-cube="122"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="232">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="132"></div>
-                    <div class="shadow-y" data-cube="132"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="312">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="212"></div>
-                    <div class="shadow-y" data-cube="212"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="322">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="222"></div>
-                    <div class="shadow-y" data-cube="222"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="332">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="232"></div>
-                    <div class="shadow-y" data-cube="232"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-
-        <!-- bottom layer -->
-        <div class="cube" data-cube="113">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-z" data-cube="111"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="123">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-z" data-cube="121"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="133">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="213">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="113"></div>
-                    <div class="shadow-y" data-cube="113"></div>
-                    <div class="shadow-z" data-cube="211"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="223">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-y" data-cube="123"></div>
-                    <div class="shadow-z" data-cube="221"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="233">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-y" data-cube="133"></div>
-                    <div class="shadow-z" data-cube="231"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="313">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="213"></div>
-                    <div class="shadow-y" data-cube="213"></div>
-                    <div class="shadow-z" data-cube="311"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="323">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="223"></div>
-                    <div class="shadow-y" data-cube="223"></div>
-                    <div class="shadow-z" data-cube="321"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-        <div class="cube" data-cube="333">
-            <div class="cube-wrap">
-                <div class="cube-top">
-                    <div class="shadow-flip" data-cube="233"></div>
-                    <div class="shadow-y" data-cube="233"></div>
-                    <div class="shadow-z" data-cube="331"></div>
-                </div>
-                <div class="cube-bottom"></div>
-                <div class="cube-front-left"></div>
-                <div class="cube-front-right"></div>
-                <div class="cube-back-left"></div>
-                <div class="cube-back-right"></div>
-            </div>
-        </div>
-
-        <div class="large-shadows">
-            <div class="large-shadow" data-cube="113"></div>
-            <div class="large-shadow" data-cube="123"></div>
-            <div class="large-shadow" data-cube="133"></div>
-            <div class="large-shadow" data-cube="213"></div>
-            <div class="large-shadow" data-cube="223"></div>
-            <div class="large-shadow" data-cube="233"></div>
-            <div class="large-shadow" data-cube="313"></div>
-            <div class="large-shadow" data-cube="323"></div>
-            <div class="large-shadow" data-cube="333"></div>
-        </div>
-    </div>
-</div>
-
-*/
 
 .square_ring {
     /* left: 10px;
