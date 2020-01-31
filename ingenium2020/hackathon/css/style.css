@@ -182,8 +182,8 @@ p {
 }
 
 #section1 {
-    padding-top: 50px;
-    height: 130vh;
+    /* padding-top: 50px; */
+    height: 600px;
     color: #fff;
     background-color: #000;
     /* background-image: url('../images/video/v4.gif');
@@ -856,6 +856,7 @@ p {
     align-items: center;
     min-height: 100vh;
     /* background-color: blueviolet; */
+    z-index: -1;
 }
 
 .loader_remake {
@@ -864,7 +865,7 @@ p {
     height: 400px;
     transform-style: preserve-3d;
     transform: perspective(500px) rotateX(60deg);
-    z-index: 0;
+    z-index: -1;
 }
 
 .loader_remake span {
