@@ -8,6 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Ingenium 2020</title>
     <link href="ingenium2020/img/assets/mainlogo4.ico" rel="icon" type="image/png">
     <link href="ingenium2020/css/plugins.css" rel="stylesheet" type="text/css">
@@ -25,33 +26,25 @@
         <div></div>
     </div>
 
-    <nav class="navbar transparent-white navbar-fixed-top">
+    <nav class="navbar transparent-white navbar-fixed-top" style="height:95px;">
         <div class="container">
 
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar top-bar"></span>
-<span class="icon-bar middle-bar"></span>
-<span class="icon-bar bottom-bar"></span>
-</button>
-                <a href="index.html"><img src="ingenium2020/img/assets/logo_white.png" alt="#" class="logo-light"></a>
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar top-bar"></span>
+                  <span class="icon-bar middle-bar"></span>
+                  <span class="icon-bar bottom-bar"></span>
+                </button>
+                <a href="index.html"><img src="ingenium2020/img/assets/logo_white.png" alt="#" class="logo-light" style="height: 100px;"></a>
                 <a href="index.html"><img src="ingenium2020/img/assets/logo_black.png" alt="#" class="logo-dark"></a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a data-scroll href="ingenium2020\pages\workshop.html">Workshop</a></li>
-                    <!-- <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events<i class="ion-chevron-down"></i></a>
-      <ul class="dropdown-menu">
-        <li><a href="web-design.html">Hackathon</a></li>
-        <li><a href="branding.html">Competitions</a></li>
-        <li><a href="marketing.html">Workshops</a></li>
-      </ul>
-    </li> -->
-                    <li><a data-scroll href="ingenium2020\hackathon\hackathon.html">Hackathon</a></li>
-                    <li><a data-scroll href="ingenium2020\pages\contact.html">Contact</a></li>
+                    <li style="margin-top: 13px;"><a data-scroll href="ingenium2020\pages\workshop.html">Workshop</a></li>
+                    <li style="margin-top: 13px;"><a data-scroll href="ingenium2020\hackathon\hackathon.html">Hackathon</a></li>
+                    <!-- <li style="margin-top: 13px;"><a data-scroll href="ingenium2020\pages\contact.html">Contact</a></li> -->
                 </ul>
             </div>
         </div>
@@ -81,7 +74,7 @@
             <div class="flex facts pb30">
                 <div class="fact-container black text-center">
                     <div class="fact">
-                        <h2 class="counter" style="color: #ff5432;">3869</h2>
+                        <h2 class="counter" style="color: #ff5432;">8869</h2>
                         <!-- <h2 style="color: #ff5432;">+</h2> -->
                         <p>Attendance</p>
                     </div>
@@ -195,7 +188,11 @@
 
 
     <section id="portfolio" class="bg-white">
+      <div class = "heading black">
+        <h2 style="color:white; text-align: center">Events</h2>
+      </div>
         <div class="container-fluid pt130 pb10 pl10 pr10">
+
             <!-- <div class="heading black text-center">
 <div class="heading-title">
   Our Portfolio
@@ -330,8 +327,15 @@
 
                     <div class="quote-wrap white">
                         <div class="quote-body">
-                            <div class="heading-title">Machine Learning Workshop.</div>
-                            <img src="ingenium2020\img\gallery\ML.JPG">
+                            <div class="heading-title">Stand-up By Kenny Sebastian</div>
+                            <img src="ingenium2020\img\gallery\kenny.JPG">
+                        </div>
+                    </div>
+
+                    <div class="quote-wrap white">
+                        <div class="quote-body">
+                            <div class="heading-title">Performance by The Local Train</div>
+                            <img src="ingenium2020\img\gallery\concert.jfif">
                         </div>
                     </div>
 
@@ -352,15 +356,8 @@
 
                     <div class="quote-wrap white">
                         <div class="quote-body">
-                            <div class="heading-title">Cultural Nights</div>
-                            <img src="ingenium2020\img\gallery\concert.JPG">
-                        </div>
-                    </div>
-
-                    <div class="quote-wrap white">
-                        <div class="quote-body">
-                            <div class="heading-title">Stand-up By Kenny Sebastian</div>
-                            <img src="ingenium2020\img\gallery\kenny.JPG">
+                            <div class="heading-title">Machine Learning Workshop.</div>
+                            <img src="ingenium2020\img\gallery\ML.JPG">
                         </div>
                     </div>
 
@@ -373,37 +370,41 @@
     <section id="team" class="bg-dark">
       <div class="container">
          <div class="row">
-            <div class="col-lg-5">
-               <h2 class="column-title">
+            <div class="col-lg-6">
+               <h2 class="column-title" style="color: white;">
                   <span>Reach us</span>
                </h2>
 
                <div class="ts-map-tabs">
                   <ul class="nav" role="tablist">
                      <li class="nav-item">
-                        <a class="nav-link active" href="https://goo.gl/maps/JSjw3K5zNMpQBq3X9" role="tab" data-toggle="tab" style="margin-top: 20px;">Venue</a>
+                        <!-- <a class="nav-link active" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.6323
+                            326256743!2d72.54998281418492!3d23.03726812156134!2m3!1f0!2f0!3f0!3m2!1i1024!
+                            2i768!4f13.1!3m3!1m2!1s0x395e84f368a87e9b%3A0x4404c5fac85ee456!2sSchool%20of%
+                            20Engineering%20and%20Applied%20Science!5e0!3m2!1sen!2sin!4v1576321169771!5m2!
+                            1sen!2sin" target="_blank" role="tab" data-toggle="tab" style="margin-top: 20px;">Venue</a> -->
                      </li>
                   </ul>
 
                   <!-- Tab panes -->
                   <div class="tab-content direction-tabs">
                      <div role="tabpanel" class="tab-pane active" id="profile">
-                        <div class="direction-tabs-content">
+                        <div class="direction-tabs-content" style="margin-top: 45px;">
                            <h3>Ahmedabad University, GICT Building, Central Campus</h3>
                            <p class="derecttion-vanue">
                               Navrangpura, Ahmedabad, Gujarat
                                     </p>
                               <div class="row">
                                  <div class="col-md-6">
-                                    <div class="contact-info-box">
+                                    <div class="contact-info-box" style="margin-top: 20px;">
                                        <h3>Contact info </h3>
-                                       <p><strong>Name:</strong>Nisarg Shah</p>
+                                       <p style="margin-top: 30px"><strong>Name:</strong>Nisarg Shah</p>
                                        <p><strong>Phone:</strong>9427454248</p>
                                        <p><strong>Email: </strong>nisarg.s1@ahduni.edu.in</p>
                                     </div>
 
                                  </div>
-                                 <div class="col-md-6" style="margin-top: 37px">
+                                 <div class="col-md-6" style="margin-top: 81px">
                                     <div class="contact-info-box">
                                        <p><strong>Name:</strong> Shiv Gohil</p>
                                        <p><strong>Phone:</strong>7779033222</p>
@@ -420,7 +421,7 @@
 
             </div><!-- col end-->
             <div class="col-lg-6 offset-lg-1">
-               <div class="ts-map" style = "margin-left: 70px;">
+               <div class="ts-map">
                   <div class="mapouter">
                      <div class="gmap_canvas">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.641578632644!2d72.55020091418488!3d23.036928821574026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84ecd18c11b3%3A0x840303acd17d55c3!2sSEAS%20CANTEEN!5e0!3m2!1sen!2sin!4v1580407174439!5m2!1sen!2sin"></iframe>
@@ -450,7 +451,7 @@
     </section> -->
 
 
-    <section id="testimonials" class="parallax">
+    <section id="testimonials" class="parallax" style="margin-top: 30px;">
         <div class="background-image overlay">
             <img src="ingenium2020/img/backgrounds/au_slider.jpg" alt="#">
         </div>
