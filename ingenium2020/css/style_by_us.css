@@ -26,6 +26,7 @@
 .container_res_card .card_res_card:nth-child(even) {
     flex-direction: row-reverse;
     text-align: right;
+    /* margin-right: 100px; */
 }
 
 .container_res_card .card_res_card .imgbx_res_card {
@@ -66,7 +67,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 20px 60px 20px 100px; */
+    padding: 20px 60px 20px 100px;
     /* text-align: center; */
     padding-left: 60px;
 }
