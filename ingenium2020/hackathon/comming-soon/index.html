@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <title>Hack|Ingenium</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+
+        .title {
+            z-index:500;
+            margin: 0;
+            padding: 0;
+            display: block;
+            width: 100vw;
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(72, 78, 74);
+            ;
+            display: inline;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 72px;
+            text-align: center;
+            position: absolute;
+            top: calc(20% - 40px);
+
+        }
+
+        .counter-item {
+            background-color: rgba(255, 255, 255, 0.69);
+            z-index:500;
+            margin: 2em;
+            width: 4em;
+            border: 2px solid #FE654F;
+            border-radius: 10px;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .countdown .time {
+            font-family: 'Montserrat', sans-serif;
+            color: #1A281F;
+            font-size: 42px;
+
+        }
+
+        .countdown .smalltext {
+            font-family: 'Montserrat', sans-serif;
+            color: #FE654F;
+            font-size: 14px;
+
+        }
+
+
+        .countdown {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 40%;
+        }
+
+        @media screen and (max-width:750px )  {
+            
+            .title{
+                font-size: 50px;
+            }
+            .countdown .time {
+                font-size: 40px;
+
+            }
+
+            .counter-item {
+                margin: 1em;
+                padding: 8px;
+            }
+        }
+        @media screen and (max-height:850px){
+            .countdown {
+                bottom: 15%;
+            }
+        }
+        @media screen and (max-width:450px) {
+            
+            .title {
+                font-size: 36px;
+            }
+            .title .head{
+                font-size:larger;
+            }
+
+            .countdown .time {
+                font-size: 30px;
+
+            }
+
+            .counter-item {
+                margin: 1em;
+                padding: 8px;
+            }
+
+            .countdown {
+                z-index:100;
+                left:20%;
+                width: 60vw;
+                bottom: 10px;
+                transform: scale(0.7);
+            }
+
+
+        }
+        .background{
+            z-index:0;
+            position:absolute;
+            bottom:0;
+            right:20%;
+            height:70vh;
+            animation: move-bc 3s linear infinite;
+            opacity:1;
+        }
+        .vase{
+
+            z-index:0;
+            position:absolute;
+            bottom:30px;
+            right:40%;
+            height:20vh;
+            animation: move-mc 3s linear infinite;
+            opacity:1;
+        }
+        @keyframes move-mc {
+            50% {
+                transform: translateX(-10px);
+            }
+            100% {
+                transform: translateX(0vw);
+            }
+        }
+        @keyframes move-bc {
+            50% {
+                transform: translateX(10px);
+            }
+            100% {
+                transform: translateX(0vw);
+            }
+        }
+        .head{
+            font-weight: 600;
+        }
+    </style>
+    <script src="./jquery.js"></script>
+    <script src="./jquery.jCounter.js"></script>
+    
+    <main>
+        <div class="title"><span class="head">Ingenious Hackathon</span><br/>Coming Soon</div>
+
+        <div class="countdown ">
+            <div class="counter-item">
+                <span class="days time">00</span>
+                <div class="smalltext">Days</div>
+
+            </div>
+            <div class="counter-item">
+                <span class="hours time">00</span>
+                <div class="smalltext">Hours</div>
+
+            </div>
+            <div class="counter-item">
+                <span class="minutes time">00</span>
+                <div class="smalltext">Minutes</div>
+            </div>
+            <div class="counter-item">
+                <span class="seconds time">00</span>
+                <div class="smalltext">Seconds</div>
+            </div>
+        </div>
+
+    </main>
+        <img  class="background" src="./images/XMLID 84.svg" />
+        <img class="vase" src="./images/Group.svg" >
+    
+    <script>
+
+        if ($('.countdown').length > 0) {
+            $(".countdown").jCounter({
+                date: '31 January 2020 000000',
+                fallback: function () {
+                    console.log("count finished!")
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>
