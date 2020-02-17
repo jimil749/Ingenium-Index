@@ -19,6 +19,9 @@
     <link href="ingenium2020/fonts/Themify%20Icons/stylesheet.css" rel="stylesheet" type="text/css">
     <link href="ingenium2020/fonts/Ion%20Icons/stylesheet.css" rel="stylesheet" type="text/css">
     <link href="ingenium2020/fonts/FontAwesome/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body data-fade-in="true">
@@ -55,7 +58,7 @@
             <img src="ingenium2020/img/backgrounds/au_slider.jpg" alt="#">
         </div>
         <div class="hero-content">
-            <div class="container text-center white">
+            <div class="container text-center white" data-aos="fade-down">
                 <div class="m-auto">
                     <h1>Ingenium</h1>
                     <h3 style="margin-top: 30px;">20-22 March, 2020</h3>
@@ -76,18 +79,18 @@
 
     <section id="about" class="bg-white">
         <div class="container text-center pt130 pb120">
-            <div class="heading black">
+            <div class="heading black" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="150">
                 <h2 style="color: white">About Ingenium 2k20</h2>
             </div>
-            <div class="flex facts pb30">
-                <div class="fact-container black text-center">
+            <div class="flex facts pb30" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="150">
+                <div class="fact-container black text-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="150">
                     <div class="fact">
                         <h2 class="counter" style="color: #ff5432;">9000</h2>
                         <p>Attendance</p>
                     </div>
                 </div>
 
-                <div class="fact-container black text-center">
+                <div class="fact-container black text-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="150">
                     <div class="fact">
                         <h2 class="counter" style="color: #ff5432;">30</h2>
                         <!-- <h2 style="color: #ff5432;">+</h2> -->
@@ -95,7 +98,7 @@
                     </div>
                 </div>
 
-                <div class="fact-container black text-center">
+                <div class="fact-container black text-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="150">
                     <div class="fact">
                         <h2 class="counter" style="color: #ff5432;">12</h2>
                         <!-- <h2 style="color: #ff5432;">+</h2> -->
@@ -195,13 +198,13 @@
 
 
     <section id="portfolio" class="bg-white">
-        <div class="heading black">
+        <div class="heading black" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="150">
             <h2 style="color:white; text-align: center">EXPLORE</h2>
         </div>
         <div class="container-fluid pt130 pb10 pl10 pr10">
             <div id="portfolio-fullwidth-col-3" class="cbp">
 
-                <div class="cbp-item branding">
+                <div class="cbp-item branding" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <a href="ingenium2020\pages\workshop.html" target="_blank">
                         <div class="cbp-caption" href="ingenium2020\pages\workshop.html">
                             <div class="cbp-caption-defaultWrap">
@@ -217,9 +220,9 @@
                 </div>
 
 
-               
 
-                <div class="cbp-item branding">
+
+                <div class="cbp-item branding" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <a href="ingenium2020\pages\events.html" target="_blank">
                         <div class="cbp-caption" href="ingenium2020\pages\events.html">
                             <div class="cbp-caption-defaultWrap">
@@ -234,7 +237,7 @@
                     </a>
                 </div>
 
-		<!-- <div class="cbp-item print branding">
+                <!-- <div class="cbp-item print branding">
                     <a href="ingenium2020\hackathon\hackathon.html" target="_blank">
                         <div class="cbp-caption" href="ingenium2020\hackathon\hackathon.html">
                             <div class="cbp-caption-defaultWrap">
@@ -269,7 +272,7 @@
 
 
     <section id="quote" class="bg-primary">
-        <div class="container pt110 pb110">
+        <div class="container pt110 pb110" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="150">
             <div class="col-md-8 text-center m-auto">
                 <h3>GLIMPSE OF INGENIUM</h3>
                 <br>
@@ -326,7 +329,7 @@
 
 
     <section id="team" class="bg-dark">
-        <div class="container">
+        <div class="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <div class="row">
                 <div class="col-lg-6">
                     <h2 class="column-title" style="color: white;">
@@ -383,7 +386,7 @@
 
                 </div>
                 <!-- col end-->
-                <div class="col-lg-6 offset-lg-1">
+                <div class="col-lg-6 offset-lg-1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="ts-map">
                         <div class="mapouter">
                             <div class="gmap_canvas">
@@ -416,7 +419,7 @@
 
 
     <section id="testimonials" class="parallax" style="margin-top: 30px;">
-        <div class="background-image overlay">
+        <div class="background-image overlay" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <img src="ingenium2020/img/backgrounds/au_slider.jpg" alt="#">
         </div>
         <div class="container pt110 pb110">
@@ -574,6 +577,10 @@ x = setInterval(function() {
 
 }, second)
     </script> -->
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 <!-- Mirrored from www.1oh1design.com/fonts/leon/templates/honshi/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 26 Oct 2019 12:39:23 GMT -->
